@@ -6,8 +6,6 @@ local LocalPlayer = Players.LocalPlayer
 
 local WorkPrompt = nil
 
-getgenv().SendRate = 3 --刷钱倍率
-
 local function FindPrompt ()
 	for _, prompt in ipairs(MainFolder:GetDescendants()) do
 		if prompt:IsA("ProximityPrompt") and prompt.ActionText == "工作" then
@@ -30,3 +28,4 @@ for  i = 1, getgenv().SendRate do
 		end
 	end)
 end
+
