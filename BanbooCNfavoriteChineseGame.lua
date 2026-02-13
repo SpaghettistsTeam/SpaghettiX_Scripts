@@ -19,7 +19,7 @@ local function AutoMining ()
         local orePosition = Cube.Position
         local StatusText = Cube:WaitForChild("OreStatus"):WaitForChild("StatusText")
 
-        if string.find(StatusText.Text, "^矿物已被") then continue end
+        if string.find(StatusText.Text, "^矿物已被") or string.find(StatusText.Text, "^正在挖掘") then continue end
 
         TelePort(orePosition)
 
