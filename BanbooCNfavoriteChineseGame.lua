@@ -1,5 +1,4 @@
 --Developed by SpaghettistsTeam
-getgenv().AutoMiningEnabled = true
 local Players = game:GetService("Players")
 local LocalPlayer = Players.LocalPlayer
 
