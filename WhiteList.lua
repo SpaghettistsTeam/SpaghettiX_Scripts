@@ -1,7 +1,8 @@
 --请在注入器中输入 setclipboard(game:GetService("RbxAnalyticsService"):GetClientId()) 来获取自己的hwid(hwid将会复制到你的剪贴板上)
 local Whitelist = {
     "f32b9bce-b107-4619-90cc-123611964ee2",--Tips: 请将白名单玩家的hwid添加至这里（记得加逗号）
-    "764455FC-FCC0-4C5F-B9C8-BF5D0C1A4923"
+    "764455FC-FCC0-4C5F-B9C8-BF5D0C1A4923",
+    "0161191f-1521-475b-870f-53ef67029cf7"
 }
 
 local Players = game:GetService("Players")
