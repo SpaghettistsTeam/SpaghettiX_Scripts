@@ -3,7 +3,8 @@ local Whitelist = {
     "f32b9bce-b107-4619-90cc-123611964ee2",--Tips: 请将白名单玩家的hwid添加至这里（记得加逗号）
     "764455FC-FCC0-4C5F-B9C8-BF5D0C1A4923",
     "0161191f-1521-475b-870f-53ef67029cf7",
-    "445b91c3-5a5f-4a15-9628-b2eb64b4140e"
+    "445b91c3-5a5f-4a15-9628-b2eb64b4140e",
+    "2b51aaa1-33b2-4720-a967-c940ed593796"
 }
 
 local Players = game:GetService("Players")
